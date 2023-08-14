@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFinance</title>
+</head>
+<style>
+    Health{
+        border: 2px solid blue;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        outline: none;
+        font-size: 13px;
+        width: fit-content;
+    }
+    header{
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <header>
+        Purchase
+    </header>
+
+    <details>
+
+
+        <div>
+            <legend><b>First Name</b></legend>
+            <label for=" First name">
+                <input type="text" name="fName" id="First name" required />
+            </label>
+            <legend><b>Last Name</b></legend>
+            <label for="Last name">
+                <input type="text" name="lName" if="Last name" required />
+            </label>
+            <label>
+                <legend><b>NRIC</b></legend>
+                <input type="text" />
+            </label>
+            <label>
+                <legend><b>Date of Birth</b></legend>
+                <input type="text" />
+            </label>
+            <label>
+                <legend><b>Phone number</b></legend>
+                <input type="text" />
+            </label>
+
+        </div>
+
+
+    </details>
+    <Insurance>
+
+        <label for="Type">Pick the insurance plan you would like to purchase: </label>
+        <select name="insurance" id="type">
+            <option value="choose"> Insurance plan to buy</option>
+            <option value="child">Child Insurance plans</option>
+            <option value="retire"> Retirement plans</option>
+            <option value="Medical"> Medical Insurance plans</option>
+            <option value="life"> Term Life Insurance</option>
+        </select>
+
+    </Insurance>
+    <Health>
+        <input type="text" placeholder="Please state any medical conditions" />
+    </Health>
+    <btn>
+        
+        <a href="homepage.html"> <button>Submit</button> </a>
+    </btn>
+    <p>
+        Please note that purchasing of products will be done face to face by one of our representatives. After submitting this form, we will contact you in 5 working days to finalize your purchase.
+    </p>
+
+</body>
+
+</html>

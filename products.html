@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFinance</title>
+</head>
+
+<body>
+    <h1>More popular products > </h1>
+    <div onmouseover="childInfo()">
+        <p>Child insurance plans</p>
+        <p id="CIP"></p>
+    </div>
+    <div onmouseover="retireInfo()">
+        <p> Retirement insurance plans</p>
+        <p id="RIP"></p>
+    </div>
+    <div onmouseover="medInfo()">
+        <p>Medical insurance plans</p>
+        <p id="MIP"></p>
+    </div>
+    <div onmouseover="termInfo()">
+        <p>Term life insurance</p>
+        <p id="TLI"></p>
+    </div>
+    <h2>
+        Other products offered:
+    </h2>
+    <li>Money back insurance</li>
+    <li>Whole life insurance</li>
+    </div>
+    <more>
+        <a href="">more </a>
+    </more>
+    <a href="homepage.html"> <button>Home</button> </a>
+    <script>
+        function childInfo() {
+            document.getElementById("CIP").innerHTML = "Insurance and investment plans for your child. upon maturity, this amount of money can help pay for your childs education."
+        }
+        function retireInfo() {
+            document.getElementById("RIP").innerHTML = " Ways to save  money such that you would be able to use them upon retirement"
+        }
+        function medInfo() {
+            document.getElementById("MIP").innerHTML = "Helps to cover parts of your medical bill, as well as your visits to the clinic"
+
+        }
+        function termInfo() {
+            document.getElementById("TLI").innerHTML = "This plan ensures that your family gets cash benefit "
+        }
+    </script>
+</body>
+
+</html>
